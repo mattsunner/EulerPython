@@ -9,25 +9,9 @@ https://projecteuler.net/problem=3
 
 """
 
-base = 600851475143
-factors = []
-primes = []
+N = x^a + Y^b + Z^c
 
 
-def factor_func():
-    for i in range(base):
-        r = base / (i+1)
-        if r.is_integer():
-            factors.append(r)
-        i += 1 
-
-def main():
-    factor_func()
-    for factor in factors:
-        if (base % factor) == 0:
-            print(factor)
-     
-        
 
 
 if __name__ == '__main__':
