@@ -1,2 +1,4 @@
 # Env
+.DS_Store
 eulerpy/
+*.swp
